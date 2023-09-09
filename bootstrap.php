@@ -20,5 +20,8 @@ DEFINE('_WEB_ROOT', $web_root);
 $default_image = _WEB_ROOT . '/public/images/user/default.jpg';
 DEFINE('DEFAULT_USER_IMAGE', $default_image);
 
+$icon = _WEB_ROOT . '/public/images/icon.png';
+DEFINE('ICON', $icon);
+
 $default_artist_image = _WEB_ROOT . '/public/images/artist/artist_default.png';
 DEFINE('DEFAULT_ARTIST_IMAGE', $default_artist_image);
