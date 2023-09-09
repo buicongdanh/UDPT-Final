@@ -37,7 +37,7 @@ class HomeController extends Controller
         if (isset($_GET['keyword'])) {
             $keyword = $_GET['keyword'];
             $searchTypes = (isset($_GET['searchType']) && is_array($_GET['searchType'])) ? $_GET['searchType'] : [];
-            $limit = (count($searchTypes) == 1) ? false : true;
+            $limit = (count($searchTypes) == 1) ? false : 5; // Tìm kiếm tất cả hoặc top 5
 
             $results = [
                 'singer' => [],
@@ -72,6 +72,7 @@ class HomeController extends Controller
             exit();
         }
     }
+
 
 
 

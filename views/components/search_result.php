@@ -43,7 +43,10 @@
                         <?php echo $singer['Name']; ?>
                         </div>
                         <div class="col-md-2 text-end">
-                            <img src="path_to_image.jpg" alt="Hình ảnh ca sĩ" width="50" height="50">
+                            <?php
+                            $imagePath = (isset($singer['ImagePath']) && file_exists($singer['ImagePath'])) ? $singer['ImagePath'] : DEFAULT_ARTIST_IMAGE;
+                            ?>
+                            <img src="<?php echo $imagePath; ?>" alt="Hình ảnh ca sĩ" width="50" height="50">
                         </div>
                     </div>
             <?php endforeach; ?>
