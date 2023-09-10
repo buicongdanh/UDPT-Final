@@ -1,18 +1,21 @@
 # UDPT - Final
-Bài thi cuối kỳ môn Ứng dụng phân tán
+Bài thi cuối kỳ môn Ứng dụng phân tán, thực hiện vào ngày 27/8/2023
 
 Thực hiện bởi Bùi Công Danh - [@cafe.finn](https://www.instagram.com/cafe.finn/)
 ## Description
+### Công nghệ sử dụng
 - Frontend: Boostrap 5.0
 - Backend: PHP
 - CSDL: MySQL
-  
-Kiến trúc MVC, phần kết nối CSDL có sử dụng Singleton
 
-*Lưu ý: chưa hoàn thiện tính năng phân trang*
+### Các tính năng
+Hầu hết đã hoàn thiện các tính năng trong đề bài, trừ 2 tính năng sau:
+- Tìm kiếm sử dụng AJAX
+- Phân trang
+
 ## Getting Started
 ### Configuration
-Cấu hình file config.inc.php user và mật khẩu của bạn
+Cấu hình file config.inc.php username và mật khẩu
 
 ```PHP
 <?php 
@@ -24,3 +27,6 @@ $config['database'] = [
 ];
 
 ```
+
+### Run app
+Khởi động XAMPP. Trang mặc định sẽ là **http://localhost:8080/19127348_BuiCongDanh/**
