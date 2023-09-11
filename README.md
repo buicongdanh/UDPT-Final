@@ -1,7 +1,7 @@
 # UDPT - Final
 Bài thi cuối kỳ môn Ứng dụng phân tán, thực hiện vào ngày 27/8/2023
 
-Thực hiện bởi Bùi Công Danh - [@cafe.finn](https://www.instagram.com/cafe.finn/)
+Thực hiện bởi  [Danh Bui](https://www.facebook.com/buicong.danh21/)
 ## Description
 ### Công nghệ sử dụng
 - Frontend: Boostrap 5.0
