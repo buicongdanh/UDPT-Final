@@ -1,7 +1,7 @@
 # UDPT - Final
 Bài thi cuối kỳ môn Ứng dụng phân tán, thực hiện vào ngày 27/8/2023
 
-Thực hiện bởi  [Danh Bui](https://www.facebook.com/buicong.danh21/)
+Thực hiện bởi [buicongdanh](https://www.facebook.com/buicong.danh21/)
 ## Description
 ### Công nghệ sử dụng
 - Frontend: Boostrap 5.0
@@ -9,9 +9,15 @@ Thực hiện bởi  [Danh Bui](https://www.facebook.com/buicong.danh21/)
 - CSDL: MySQL
 
 ### Các tính năng
-Hầu hết đã hoàn thiện các tính năng trong đề bài, trừ 2 tính năng sau:
-- Tìm kiếm sử dụng AJAX
-- Phân trang
+#### Hoàn thành
+- Xây dựng giao diện trang web theo yêu cầu đề bài 
+- Đăng nhập/Đăng xuất
+- Tìm kiếm theo từ khóa, hiển thị kết quả theo yêu cầu
+- Thêm một bài hát mới
+
+#### Chưa hoàn thành
+- Chức năng tìm kiếm được cài đặt dùng AJAX
+- Phân trang kết quả tìm kiếm
 
 ## Getting Started
 ### Configuration
